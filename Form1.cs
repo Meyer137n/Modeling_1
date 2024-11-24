@@ -68,7 +68,7 @@ namespace Modeling1
             colorPanel.AutoScroll = true;
 
             // Создаем массив цветов для деталей
-            Color[] colors = { Color.Red, Color.Orange, Color.Yellow, Color.LightGreen, Color.Purple };
+            Color[] colors = { Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Blue };
 
             // Создаем метки и цветные квадратики
             for (int i = 0; i < 5; i++)
@@ -244,8 +244,8 @@ namespace Modeling1
             SolidBrush sb1 = new SolidBrush(Color.Red);
             SolidBrush sb2 = new SolidBrush(Color.Orange);
             SolidBrush sb3 = new SolidBrush(Color.Yellow);
-            SolidBrush sb4 = new SolidBrush(Color.LightGreen);
-            SolidBrush sb5 = new SolidBrush(Color.Purple);
+            SolidBrush sb4 = new SolidBrush(Color.Green);
+            SolidBrush sb5 = new SolidBrush(Color.Blue);
             SolidBrush sbDowntime = new SolidBrush(Color.LightGray);
 
             int x = 10; 
@@ -624,8 +624,8 @@ namespace Modeling1
             SolidBrush sb1 = new SolidBrush(Color.Red);
             SolidBrush sb2 = new SolidBrush(Color.Orange);
             SolidBrush sb3 = new SolidBrush(Color.Yellow);
-            SolidBrush sb4 = new SolidBrush(Color.LightGreen);
-            SolidBrush sb5 = new SolidBrush(Color.Purple);
+            SolidBrush sb4 = new SolidBrush(Color.Green);
+            SolidBrush sb5 = new SolidBrush(Color.Blue);
             SolidBrush sbDowntime = new SolidBrush(Color.LightGray);
 
             int x = 10; 
