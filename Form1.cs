@@ -232,7 +232,7 @@ namespace Modeling1
                 totalTime += task1[i, 1];
             }
 
-            labelDowntime.Location = new Point(13, 142);
+            labelDowntime.Location = new Point(13, 160);
             labelDowntime.Text = "Время окончания обработки: " + totalTime;
         }
 
@@ -348,7 +348,7 @@ namespace Modeling1
             MatrixLoader.LoadArrayFromFile(filePath, task2);
             LoadDataIntoLabels(task2, false);
 
-            labelDowntime.Location = new Point(13, 142);
+            labelDowntime.Location = new Point(13, 160);
             buttonRun21.Visible = true;
             buttonRun22.Visible = true;
             findAmountOfDowntime3xn();

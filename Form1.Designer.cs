@@ -406,7 +406,7 @@
             this.Controls.Add(this.labelC);
             this.Controls.Add(this.buttonTask1);
             this.Name = "Form";
-            this.Text = "Модель Джонсона";
+            this.Text = "Моделирование №1";
             this.Load += new System.EventHandler(this.Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
